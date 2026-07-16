@@ -30,10 +30,17 @@ k = symbols('k')
 D6_FILES = []
 
 TOURNAMENT_FILES = [
-    "tour9.d6",
+    "tour2.txt",
+    "tour3.txt",
+    "tour4.txt",
+    "tour5.txt",
+    "tour6.txt",
+    "tour7.txt",
+    "tour8.txt",
+    "tour9.txt",
 ]
 
-OUTPUT_JSON = "graphs_tour_n9_169100-.json"
+OUTPUT_JSON = "tournament_spectra.json"
 OUTPUT_HTML = "index.html"
 
 CHECKPOINT_EVERY = 100   # save progress every N graphs
@@ -44,14 +51,14 @@ CHECKPOINT_EVERY = 100   # save progress every N graphs
 # The checkpoint system handles resumption automatically in most cases —
 # use this as a manual override when you know exactly where to start.
 START_FROM_LINE = {
-    # "tour2.d6": 0,
-    # "tour3.d6": 0,
-    # "tour4.d6": 0,
-    # "tour5.d6": 0,
-    # "tour6.d6": 0,
-    # "tour7.d6": 0,
-    # "tour8.d6": 0,
-    "tour9.d6": 169100,
+    "tour2.txt": 0,
+    "tour3.txt": 0,
+    "tour4.txt": 0,
+    "tour5.txt": 0,
+    "tour6.txt": 0,
+    "tour7.txt": 0,
+    "tour8.txt": 0,
+    "tour9.txt": 0,
 }
 
 # ============================================================
