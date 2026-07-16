@@ -11,6 +11,8 @@ $W_M(D): [e, Me, M^2e, \ldots, M^{n-1}e]$, where $e$ is an all-ones vector and $
 - 🔗 If you want to download the generated data for all tournaments up to 9 vertices, click [here](https://github.com/Katiekuehr/cospectral_dichro_diff_tournaments/releases/download/v1.0/tourn_to_n9.json).
 - 📄 cospectral_groups.py: Python file that classifies all $(A(D), W_A(D)), (H(D), W_H(D)), (S(D), W_S(D))$ cospectral groups of tournaments with more than $1$ tournaments. For each group, it checks pairwise whether for two digraphs $D_1, D_2$ every arc $jk$ in the set $S =$ { $jk: jk \in D_1, jk \not \in D_2$ } is in a directed cycle, which is a subset of $S$.
 
+### Example
+Below is an example of two tournaments, cospectral in $(A(D), W_A(D))$ and $(H(D), W_H(D))$ with dicromatic polynomials $P_{T_1} (x) = x^9 − 28x^7 + 72x^6 + 34x^5 − 338x^4 + 441x^3 − 187x^2 + 5x$ and $P_{T_2} (x) = x^9 − 28x^7 + 72x^6 + 35x^5 − 338x^4 + 433x^3 − 177x^2 + 2x$ respectively. Red arcs signify arcs differing in the tournaments and note that every arc belongs to at least $1$ directed cycle.
 ![example image](example_tournaments.png)
 
 ## Results:
